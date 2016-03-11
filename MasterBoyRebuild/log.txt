@@ -1,0 +1,167 @@
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o gbcore/apu.o gbcore/apu.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o gbcore/cheat.o gbcore/cheat.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o gbcore/cpu.o gbcore/cpu.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o gbcore/gb.o gbcore/gb.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o gbcore/lcd.o gbcore/lcd.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o gbcore/mbc.o gbcore/mbc.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o gbcore/rom.o gbcore/rom.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o gbcore/sgb.o gbcore/sgb.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o cpu/z80.o cpu/z80.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o memz80.o memz80.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o pio.o pio.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o vdp.o vdp.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o render.o render.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o sms.o sms.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o system.o system.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o sound/sound.o sound/sound.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o sound/sn76489.o sound/sn76489.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o sound/emu2413.o sound/emu2413.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o sound/ym2413.o sound/ym2413.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o sound/fmintf.o sound/fmintf.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o sound/stream.o sound/stream.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/gameboy_render.o psp/gameboy_render.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/VideoGu.o psp/VideoGu.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/Controls.o psp/Controls.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/PspSound.o psp/PspSound.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/SMS.o psp/SMS.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/main.o psp/main.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/menuplus.o psp/menuplus.c
+psp/menuplus.c: In function 'machine_load_state':
+psp/menuplus.c:833: warning: implicit declaration of function 'gb_restore_state'
+psp/menuplus.c: In function 'OuvreFichierPalette':
+psp/menuplus.c:844: warning: implicit declaration of function 'tilePalReinit'
+psp/menuplus.c: In function 'pspLoadState':
+psp/menuplus.c:905: warning: implicit declaration of function 'exiting_lcdc'
+psp/menuplus.c: In function 'machine_save_state':
+psp/menuplus.c:916: warning: implicit declaration of function 'gb_save_state'
+psp/menuplus.c: In function 'menuRedefineGetNewKey':
+psp/menuplus.c:1133: warning: unused variable 'key'
+psp/menuplus.c: In function 'menuTakeScreenshot':
+psp/menuplus.c:2368: warning: unused variable 'i'
+psp/menuplus.c: In function 'DrawBackgroundAfter':
+psp/menuplus.c:3364: warning: format '%i' expects type 'int', but argument 3 has type 'u32'
+psp/menuplus.c:3364: warning: format '%i' expects type 'int', but argument 3 has type 'u32'
+psp/menuplus.c: In function 'menuLoadFiles':
+psp/menuplus.c:3445: warning: unused variable 'temp'
+psp/menuplus.c: In function 'InitConfig':
+psp/menuplus.c:3669: warning: unused variable 'sValue'
+psp/menuplus.c: In function 'SetSubMenuItemValueByInt':
+psp/menuplus.c:3706: warning: unused variable 'j'
+psp/menuplus.c: In function 'RangeSetSubMenuValueInt':
+psp/menuplus.c:3723: warning: unused variable 'j'
+psp/menuplus.c: In function 'DrawWindowBox':
+psp/menuplus.c:3838: warning: unused variable 'j'
+psp/menuplus.c:3838: warning: unused variable 'i'
+psp/menuplus.c: In function 'menuPlusShowMenu':
+psp/menuplus.c:4462: warning: implicit declaration of function 'LoadMyPlacesFile'
+psp/menuplus.c:4426: warning: unused variable 'temp'
+psp/menuplus.c: In function 'ControlsMenuUpdate':
+psp/menuplus.c:4819: warning: implicit declaration of function 'ControlsShowMenu'
+psp/menuplus.c: In function 'menuStandardVblank':
+psp/menuplus.c:4893: warning: unused variable 'next'
+psp/menuplus.c:4893: warning: unused variable 'pressed'
+psp/menuplus.c: In function 'MessageBox_DefineButtons':
+psp/menuplus.c:4050: warning: control reaches end of non-void function
+psp/menuplus.c: In function 'fctMainFileMusic':
+psp/menuplus.c:1859: warning: control reaches end of non-void function
+psp/menuplus.c: In function 'fctMainMiscCommands':
+psp/menuplus.c:1784: warning: control reaches end of non-void function
+psp/menuplus.c: In function 'fctMainFileSram':
+psp/menuplus.c:1764: warning: control reaches end of non-void function
+psp/menuplus.c: In function 'DrawWindow':
+psp/menuplus.c:3884: warning: 'x3' may be used uninitialized in this function
+psp/menuplus.c:3884: warning: 'x2' may be used uninitialized in this function
+psp/menuplus.c: In function 'menuPlusShowMenu':
+psp/menuplus.c:4558: warning: 'moving' may be used uninitialized in this function
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/menuplus2.o psp/menuplus2.c
+psp/menuplus2.c: In function 'menuFileItemCompare':
+psp/menuplus2.c:211: warning: unused variable 'n'
+psp/menuplus2.c: In function 'ShowMenuFileSelect':
+psp/menuplus2.c:645: warning: implicit declaration of function 'HandleSubMenu'
+psp/menuplus2.c:647: warning: implicit declaration of function 'HandleBackground'
+psp/menuplus2.c:657: warning: implicit declaration of function 'MySetTextColor'
+psp/menuplus2.c:661: warning: implicit declaration of function 'DrawSubMenu'
+psp/menuplus2.c: At top level:
+psp/menuplus2.c:681: warning: missing braces around initializer
+psp/menuplus2.c:681: warning: (near initialization for 'stRomExtentions[0]')
+psp/menuplus2.c:698: warning: missing braces around initializer
+psp/menuplus2.c:698: warning: (near initialization for 'stMusicExtentions[0]')
+psp/menuplus2.c: In function 'ShowChoiceMsgBox':
+psp/menuplus2.c:808: warning: 'return' with no value, in function returning non-void
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/config.o psp/config.c
+psp/config.c: In function 'FctMsgBox':
+psp/config.c:82: warning: label 'prochArg' defined but not used
+psp/config.c: In function 'FctColorIt_SetPalette':
+psp/config.c:190: warning: implicit declaration of function 'gb_invalidate_palette'
+psp/config.c: At top level:
+psp/config.c:419: warning: missing braces around initializer
+psp/config.c:419: warning: (near initialization for 'infoTabCtrlAnalogCalValues[0]')
+psp/config.c:428: warning: missing braces around initializer
+psp/config.c:428: warning: (near initialization for 'infoObjCtrlAnalog[0]')
+psp/config.c:429: warning: missing braces around initializer
+psp/config.c:429: warning: (near initialization for 'infoTabCtrlKeys[0]')
+psp/config.c:430: warning: missing braces around initializer
+psp/config.c:430: warning: (near initialization for 'infoTabCtrlCuts[0]')
+psp/config.c:444: warning: missing braces around initializer
+psp/config.c:444: warning: (near initialization for 'infoTabMenuColCursor[0]')
+psp/config.c:485: warning: missing braces around initializer
+psp/config.c:485: warning: (near initialization for 'infoObjFile[0]')
+psp/config.c:486: warning: missing braces around initializer
+psp/config.c:486: warning: (near initialization for 'infoObjVideo[0]')
+psp/config.c:487: warning: missing braces around initializer
+psp/config.c:487: warning: (near initialization for 'infoObjSound[0]')
+psp/config.c:488: warning: missing braces around initializer
+psp/config.c:488: warning: (near initialization for 'infoObjCtrl[0]')
+psp/config.c:489: warning: missing braces around initializer
+psp/config.c:489: warning: (near initialization for 'infoObjMisc[0]')
+psp/config.c:490: warning: missing braces around initializer
+psp/config.c:490: warning: (near initialization for 'infoObjMenu[0]')
+psp/config.c:491: warning: missing braces around initializer
+psp/config.c:491: warning: (near initialization for 'infoObjMusic[0]')
+psp/config.c:492: warning: missing braces around initializer
+psp/config.c:492: warning: (near initialization for 'infoObjGameBoy[0]')
+psp/config.c:494: warning: missing braces around initializer
+psp/config.c:494: warning: (near initialization for 'infoObjColorIt[0]')
+psp/config.c:518: warning: missing braces around initializer
+psp/config.c:518: warning: (near initialization for 'infoObjMain[0]')
+psp/config.c: In function 'ScriptSave_Core':
+psp/config.c:561: warning: unused variable 'itDefault'
+psp/config.c: In function 'ScriptAjouteProcedures':
+psp/config.c:713: warning: suggest parentheses around && within ||
+psp/config.c: In function 'ExecScript':
+psp/config.c:1093: warning: suggest parentheses around && within ||
+psp/config.c:1294: warning: too many arguments for format
+psp/config.c:1294: warning: too many arguments for format
+psp-g++ -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -fno-exceptions -fno-rtti -D_PSP_FW_VERSION=371   -c -o psp/sound.o psp/sound.cpp
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o fileio.o fileio.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o state.o state.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o loadrom.o loadrom.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o unzip/ioapi.o unzip/ioapi.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o unzip/unzip.o unzip/unzip.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/gym/bzlib/blocksort.o psp/gym/bzlib/blocksort.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/gym/bzlib/bzlib.o psp/gym/bzlib/bzlib.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/gym/bzlib/compress.o psp/gym/bzlib/compress.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/gym/bzlib/crctable.o psp/gym/bzlib/crctable.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/gym/bzlib/decompress.o psp/gym/bzlib/decompress.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/gym/bzlib/huffman.o psp/gym/bzlib/huffman.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/gym/bzlib/randtable.o psp/gym/bzlib/randtable.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/gz.o psp/gz.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/VirtualGz.o psp/VirtualGz.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/deflate.o psp/deflate.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o psp/gzio.o psp/gzio.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371   -c -o error.o error.c
+psp-gcc -I. -IC:/pspsdk/psp/sdk/include -O2 -G0 -Wall -g -D_PSP_FW_VERSION=371  -L. -LC:/pspsdk/psp/sdk/lib -specs=C:/pspsdk/psp/sdk/lib/prxspecs -Wl,-q,-TC:/pspsdk/psp/sdk/lib/linkfile.prx -Wl,-Map -Wl,MasterBoy.map  gbcore/apu.o gbcore/cheat.o gbcore/cpu.o gbcore/gb.o gbcore/lcd.o gbcore/mbc.o gbcore/rom.o gbcore/sgb.o cpu/z80.o memz80.o pio.o vdp.o render.o sms.o system.o sound/sound.o sound/sn76489.o sound/emu2413.o sound/ym2413.o sound/fmintf.o sound/stream.o psp/gameboy_render.o psp/VideoGu.o psp/Controls.o psp/PspSound.o psp/SMS.o psp/main.o psp/menuplus.o psp/menuplus2.o psp/config.o psp/sound.o fileio.o state.o loadrom.o unzip/ioapi.o unzip/unzip.o psp/gym/bzlib/blocksort.o psp/gym/bzlib/bzlib.o psp/gym/bzlib/compress.o psp/gym/bzlib/crctable.o psp/gym/bzlib/decompress.o psp/gym/bzlib/huffman.o psp/gym/bzlib/randtable.o psp/gz.o psp/VirtualGz.o psp/deflate.o psp/gzio.o error.o C:/pspsdk/psp/sdk/lib/prxexports.o -losl -lpng -lz -lpsphprm -lpspsdk -lpspctrl -lpspumd -lpsprtc -lpsppower -lpspgu -lpspgum -lpspaudiocodec  -lpspaudiolib -lpspaudio -lpsphttp -lpspssl -lpspwlan -lpspnet_adhocmatching -lpspnet_adhoc -lpspnet_adhocctl -lm -ljpeg -lpspusbstor -lstdc++ -llua -lm  -lpspdebug -lpspdisplay -lpspge -lpspctrl -lpspsdk -lc -lpspnet -lpspnet_inet -lpspnet_apctl -lpspnet_resolver -lpsputility -lpspuser -lpspkernel -o MasterBoy.elf
+psp-fixup-imports MasterBoy.elf
+psp-prxgen MasterBoy.elf MasterBoy.prx
+mksfoex -d MEMSIZE=1 'MasterBoy Rebuild v2.02' PARAM.SFO
+pack-pbp EBOOT.PBP PARAM.SFO icon0.png  \
+	NULL NULL pic1.png  \
+	snd0.at3  MasterBoy.prx NULL
+[0]        328 bytes | PARAM.SFO
+[1]      14120 bytes | icon0.png
+[2]          0 bytes | NULL
+[3]          0 bytes | NULL
+[4]     223420 bytes | pic1.png
+[5]     448584 bytes | snd0.at3
+[6]    1426142 bytes | MasterBoy.prx
+[7]          0 bytes | NULL
